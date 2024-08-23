@@ -1,0 +1,241 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px ;
+    display: grid;
+ grid-template-columns: 3fr 7fr 2fr;
+ margin-top: 15px;
+ size: 30px;
+}
+
+header h1 {
+    font-size:20px;
+    font-weight: bold;
+   
+}
+header h1:hover{
+color: rgb(255, 254, 254);
+}
+
+.red{
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+
+  }
+  .text {
+    position: absolute;
+    bottom: 50px;
+    margin-bottom: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+
+  .content img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+nav ul li button:hover {
+    opacity: 0.7;
+    color: rgb(3, 3, 3);
+}
+
+main {
+    padding: 20px;
+}
+.contact{
+    list-style: none;
+    color: rgb(253, 193, 193);
+   
+}
+.new{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    margin: 30px;
+    margin-left: 100px;
+}
+.row-1{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+}
+
+.page {
+    display: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.container{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.page.active {
+    display: block;
+}
+
+.intro-section {
+    color: floralwhite;
+    padding: 60px 20px;
+    text-align: center;
+ 
+}
+
+.types-section {
+    color: floralwhite;
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+.benefits-section {
+    color: rgb(160, 228, 52);
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+.risks-section {
+    color: floralwhite;
+    padding: 60px 20px;
+    text-align: center;
+  
+}
+
+
+.best-practices-section {
+    color: floralwhite;
+    padding: 60px 20px;
+    text-align: center;
+   
+}
+main ul{
+    list-style: none;
+}
+
+.regulation-section {
+    color: floralwhite;
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+
+.contact-section {
+   color: floralwhite;
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form label{
+    color: #333;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content {
+        padding: 0 10px;
+    }
+}
